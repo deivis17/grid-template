@@ -1,0 +1,25 @@
+
+/* GRADIENT */
+
+@mixin Buttons($width,$background,$color,$paddy,$paddx, $shadow-bottom) {
+    width:$width;
+    background:$background;
+    color:$color;
+    display:inline-block;
+    text-align: center;
+    padding: $paddy $paddx;
+    box-shadow: 0 0 $shadow-bottom;
+}
+
+@mixin standartButtons{
+    @include Buttons(8rem, $primary-brand-bg, $primary-brand-color, 0.5rem, 0.5rem, 6px);
+}
+
+@mixin lineargradient {
+    background:linear-gradient(180deg, rgba(255,255,255) 50%, rgba(1,1,1,1) 50%);
+}
+
+
+@mixin center{
+    margin: 0 15rem;
+}

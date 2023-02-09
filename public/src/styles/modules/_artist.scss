@@ -1,0 +1,23 @@
+/* SECTION ARTIST */
+
+.artist {
+  display: grid;
+  grid-template-columns: repeat(8,1fr);
+  background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 50%)),
+    url("../../img/pexels-dmg-visual-studio-9509909.jpg") no-repeat center
+      center/cover;
+  height: 28rem;
+  .content {
+    grid-column: 5/8;
+    width: 50%;
+    padding-top:7rem;
+    h2,p{
+        color:$secundary-brand-color;
+    }
+    h3{
+        color:$primary-brand-bg;
+    }
+  }
+}
+
+/* SECTION ARTIST END */

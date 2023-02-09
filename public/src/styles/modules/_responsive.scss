@@ -1,0 +1,44 @@
+/* RESPONSIVE */
+
+@media screen and (max-width:600px) {
+    header{
+        .navmain{
+            .navmenu{
+                position: absolute;
+                width:30%;
+                height: 70vh;
+                left:100rem;
+                display:none;
+                align-items: center;
+                background-color: $primary-brand-bg;
+                margin-top:3rem;
+                transform:translateX(200%);
+                transition: all 0.5s ease-in-out;
+            }
+            .bars{
+                display:block;
+                grid-column: 7/8;
+                font-size: 1.5rem;
+                margin-left:2.5rem;
+                cursor: pointer;
+            }
+            .shopping{
+                grid-column: 8/8;
+                font-size: 1.5rem;
+            }
+
+            .show{
+                display:grid;
+                transform: translateX(100%);
+                transition: transform 2s ease-in-out;
+              }
+              
+        }
+    }
+
+
+}
+
+
+
+/* RESPONSIVE END */

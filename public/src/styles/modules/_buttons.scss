@@ -1,0 +1,6 @@
+.btn{
+    @include Buttons(8rem, $primary-brand-bg, $primary-brand-color, 0.5rem, 0.5rem, 6px);
+    &:hover{
+        background-color: $hover-bg;
+    }
+}
